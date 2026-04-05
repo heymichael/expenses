@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "@haderach/shared-ui/theme/domain";
+@source "../../haderach-home/packages/shared-ui/src";
+
+@theme {
+  --color-sidebar: oklch(0.985 0 0);
+  --color-sidebar-foreground: oklch(0.2 0 0);
+  --color-sidebar-primary: oklch(0.45 0.18 160);
+  --color-sidebar-primary-foreground: oklch(1 0 0);
+  --color-sidebar-accent: oklch(0.95 0 0);
+  --color-sidebar-accent-foreground: oklch(0.2 0 0);
+  --color-sidebar-border: oklch(0.922 0 0);
+  --color-sidebar-ring: oklch(0.45 0.18 160);
+}
