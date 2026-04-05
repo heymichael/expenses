@@ -1,0 +1,8 @@
+---
+description: Service-oriented data access — all data through agent API
+alwaysApply: true
+---
+
+# Service-Oriented Data Access
+
+Frontend apps must access data through the agent service API, not directly through any database or storage backend. New features should use the agent API endpoints in `../agent/service/`.
