@@ -66,3 +66,5 @@ expenses/
 ## Architecture
 
 See [docs/architecture.md](docs/architecture.md) for full details.
+Workspace-level Cursor rule coverage is tracked in
+`../haderach-platform/docs/cursor-rule-matrix.md`.
