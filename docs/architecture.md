@@ -4,6 +4,11 @@
 
 The expenses app provides a chat-driven interface for querying and analyzing expense data across vendors and departments. It follows the same SPA pattern as stocks and vendors — a lightweight React frontend backed by the shared agent service. All data flows through the agent service API (`/agent/api/`) — no direct database access from the frontend.
 
+## Cursor Rules
+
+Workspace-level Cursor rule coverage and `alwaysApply` settings are tracked in
+`../haderach-platform/docs/cursor-rule-matrix.md`.
+
 ## Repo Layout
 
 ```text
